@@ -23,6 +23,7 @@
   "homepage": "https://github.com/DeX3/kraken-cli#readme",
   "dependencies": {
     "bluebird": "^3.5.0",
+    "debug": "^2.6.8",
     "kraken-api": "^0.1.7",
     "lodash": "^4.17.4",
     "rc": "^1.2.1",
