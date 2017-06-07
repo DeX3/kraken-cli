@@ -1,0 +1,27 @@
+{
+  "name": "kraken-cli",
+  "version": "0.0.1",
+  "description": "A CLI for the kraken bitcoin dexchange",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeX3/kraken-cli.git"
+  },
+  "keywords": [
+    "kraken",
+    "bitcoin"
+  ],
+  "author": "Roman Decker <roman.decker@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DeX3/kraken-cli/issues"
+  },
+  "homepage": "https://github.com/DeX3/kraken-cli#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "lodash": "^4.17.4"
+  }
+}
