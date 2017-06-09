@@ -24,7 +24,7 @@
   "dependencies": {
     "bluebird": "^3.5.0",
     "debug": "^2.6.8",
-    "kraken-api": "DeX3/kraken-cli",
+    "kraken-api": "git+https://github.com/DeX3/npm-kraken-api.git#ca939e6dd6c6cd9d3ca9a6ee52dc2170a8d25978",
     "lodash": "^4.17.4",
     "rc": "^1.2.1",
     "yargs": "^8.0.1"
