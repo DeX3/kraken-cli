@@ -25,7 +25,7 @@ module.exports = {
   handler: async function(argv) {
     try {
       const resp = await kraken.getTickerInfo();
-      const ask = resp.ask;
+      const ask = resp[config.currencyPair.exchange].ask;
       const btcAmount = argv.currencyAmount / ask;
 
       console.error('Current ask price is', REAL, ask);
