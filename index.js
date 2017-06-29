@@ -2,4 +2,4 @@
 
 'use strict';
 
-require('yargs').commandDir('./commands').strict().help().argv;
+require('yargs').version().alias('v', 'version').commandDir('./commands').strict().help().argv;
